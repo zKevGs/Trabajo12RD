@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="reloj">10:15:20</div>
+<script>
+
+
+setInterval(() => {
+var reloj = document.getElementsByClassName("reloj")[0];
+var tiempoactual = new date();
+var hora = tiempoactual.getHours();
+var minutos = tiempoactual.getMinutes();
+var segundos = tiempoactual.getSeconds();
+
+reloj.innerHTML = hora + ":" + minutos + ":" + segundos;
+}, 1000);
+
+
+</script>
+
+</body>
+
+
+<!-- no puede hacerlo funcional, pregunte por el grupo y no recibí respuesta :/ -->
+
+
+</body>
+</html>

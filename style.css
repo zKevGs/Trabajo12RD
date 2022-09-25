@@ -1,0 +1,11 @@
+.reloj{
+    font-size:3em ;
+    font-family: monospace;
+    background-color: black;
+    border: 50px black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 250px 500px 0px 500px;
+}
